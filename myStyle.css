@@ -1,0 +1,95 @@
+/* sets the original specs of the class */ 
+.topBanner {
+    border: 5px outset #63346B;
+    background-color: #DC75EE;
+    text-align: center;
+    color: #5E146B;
+    padding-bottom: 25px;
+}
+.navigation{
+    background-color: #5E146B;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    color: #DC75EE;
+    padding: 25px;
+
+
+}
+/* sets the original specs of the class */
+.lowerBanner {
+    border: 10px outset #5E146B;
+    background-color: #A123B8; 
+    float: right;
+    text-align: center;
+    color: #DC75EE;
+    width: 100%; 
+    margin: auto;
+    padding: 25px;
+    
+}
+/* On screens that are 800px wide or less, the background color changes */
+@media screen and (max-width: 800px) {
+    .topBanner {
+        background-color: #A123B8;
+        color: white;
+    }
+
+    .lowerBanner {
+        background-color: #63346B;
+        color: white;
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is a differnt shade of purple */
+@media screen and (max-width: 600px) {
+    .topBanner {
+        background-color: #5E146B;
+        color: white;
+    }
+
+    .lowerBanner {
+        background-color: #DC75EE;
+        color: white;
+    }
+}
+
+/* this is my button, important reminders is that border-radius sets rounding */
+.myButton {
+    background-color: #63346B;
+    border: none;
+    color: violet;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* This is another one of my buttons, this one has a transition and changes color when you hover */
+.myButton2 {
+    background-color: #63346B;
+    border: none;
+    color: violet;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+}
+/* calls my button 2 and sets the alternate color scheme when myButton2 is hovered on  */
+.myButton2:hover {
+    background-color: black;
+    color: white;
+}
+/* CANNOT GET THIS CODE TO WORK ASK FOR HELP */
+ .purpleImage {
+    background-image: url("https://www.desktopbackground.org/download/o/2011/08/19/252288_cool-purple-wallpapers-desktop-backgrounds_1024x768_h.jpg");
+     
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+  }  
